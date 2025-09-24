@@ -1,7 +1,7 @@
 # TP1 - 2025.2 Consultas Avançadas
 
 Link Assignment: https://classroom.github.com/a/Uln1eKr9
-Nome Repositório: *TP1_NomeSobrenome*
+Nome Repositório: *TP1_Virgilio Alejandro Luna Núñez*
 
 Considere que você está para modelar o banco de um Sistema de PetShop, e após a modelagem, você identificou algumas das tabelas listadas abaixo.
 
@@ -97,11 +97,7 @@ ORDER BY c.nome;
 
 **Descreva o que esta consulta faz:**
 ```
-_______________________________________________________________
-_______________________________________________________________
-_______________________________________________________________
-```
-
+Ela faz com que o atributo cliente ao ser execultado, consulte no atributo pet quais as raças, especies e nome, primeiro indentifica o cliente depois a especie do animal e por utimo o nome dele.
 ---
 
 ## Questão 2 
@@ -116,10 +112,7 @@ ORDER BY receita_total DESC;
 
 **Descreva o que esta consulta faz:**
 ```
-_______________________________________________________________
-_______________________________________________________________
-_______________________________________________________________
-```
+Funcionaio consegue ver o total de agendamentos feitos no petshop, e o tipo de serviço de cada agendamento e o valor total a ser pago, o agendamento se relaciona com serviços busca em categoria o tipo de serviço, e retorna o o valor total a ser pago.
 
 ---
 
@@ -135,10 +128,7 @@ ORDER BY total_atendimentos DESC;
 
 **Descreva o que esta consulta faz:**
 ```
-_______________________________________________________________
-_______________________________________________________________
-_______________________________________________________________
-```
+FROM consulta o atributo funcionaio,indentifica o funcionario seu cargo e o total de atendimentos feitos por ele, em seguida no codigo é indentificado a data que o atendimento foi iniciado e a data em que foi finalizado.
 
 ---
 
@@ -156,10 +146,7 @@ ORDER BY qtd_pets DESC;
 
 **Descreva o que esta consulta faz:**
 ```
-_______________________________________________________________
-_______________________________________________________________
-_______________________________________________________________
-```
+Inicialmente ele indentifica o cliente, depois consulta qual seu pet e seus agendamentos
 
 ---
 
@@ -176,10 +163,7 @@ ORDER BY s.preco DESC;
 
 **Descreva o que esta consulta faz:**
 ```
-_______________________________________________________________
-_______________________________________________________________
-_______________________________________________________________
-```
+Indendifica os serviços a ser oferecidos, em seguida checa seu preço e o preço medio dos serviços, depois checa e mostrar quais os serviços estão acima ou abaixo da media e quais estão dentro da media.
 
 ---
 
@@ -197,10 +181,7 @@ ORDER BY mes;
 
 **Descreva o que esta consulta faz:**
 ```
-_______________________________________________________________
-_______________________________________________________________
-_______________________________________________________________
-```
+
 
 ---
 
